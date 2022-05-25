@@ -8,7 +8,7 @@ import {
   CloseIcon,
 } from "./$genji_components/icon.js";
 
-const BASE_URL = "/g2-next-site";
+const BASE_URL = "";
 const PREFIX = "$genji_docs";
 
 export const App = {
