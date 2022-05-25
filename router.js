@@ -5,5 +5,5 @@ const routes = [{ path: "/:id" }];
 export const router = new VueRouter({
   routes,
   mode: "history",
-  base: "",
+  base: "/g2-next-site",
 });
