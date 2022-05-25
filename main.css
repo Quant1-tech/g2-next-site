@@ -1,0 +1,21 @@
+@import url(./app.css);
+@import url(./$genji_lib/$genji_normalize.css);
+@import url(./$genji_lib/$genji_default.min.css);
+@import url(./$genji_lib/$genji_github-markdown.min.css);
+@import url(./$genji_components/outline.css);
+@import url(./$genji_components/tree.css);
+@import url(./$genji_components/codeblock.css);
+@import url(./$genji_components/markdown.css);
+@import url(./$genji_components/notebook.css);
+@import url(./$genji_stdlib/index.css);
+
+:root {
+  --genji-main-color: #792EF7;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
